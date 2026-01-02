@@ -12,10 +12,15 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    color: var(--white);
 }
 
 a{
     text-decoration: none;
+}
+
+body{
+    background: var(--black);
 }
 
 ol, ul{
@@ -27,7 +32,12 @@ ol, ul{
 :root{
 
     /* *BASE COLOR */
+
+    --white: #FFFFFF;
+    --black: #000000;
+    --black50: #111111;
     
+
     /* *BASE FONT FAMILY */
     --achirvo: "Archivo", sans-serif;
     --dmsans: "DM Sans", sans-serif;
